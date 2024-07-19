@@ -1,0 +1,36 @@
+@tailwind base;
+
+@font-face {
+  font-family: 'FixedSys';
+  src: url('./font/FSEX300.ttf') format('truetype');
+}
+
+:root {
+  --white: #f3e9db;
+  --white-dark: #ccb8a1;
+  --gray-dark: #13120e;
+  --gray: #414141;
+  --gray-light: #929292;
+  --red: #cc241d;
+  --red-light: #fb4934;
+  --green: #98971a;
+  --light-green: #b8bb26;
+  --yellow-dark: #d79921;
+  --yellow: #fabd2f;
+  --brown-light: #3d342a;
+}
+
+body {
+  font-family: 'FixedSys', monospace;
+  text-rendering: optimizeLegibility;
+}
+
+.numeric {
+  font-family: monospace;
+}
+
+.box-shadow {
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+}
